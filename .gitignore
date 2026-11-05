@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Generated data and run artifacts
+*.csv
+mlruns/
+mlartifacts/
+mlflow.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+reports/*
+!reports/.gitkeep
+
+# n8n local data (the exported workflow in n8n/ is fine)
+.n8n/
+n8n_data/
+
+# Editor / OS
+.vscode/
+.DS_Store
